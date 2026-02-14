@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wedding Invitation</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #f8e1e7, #ffe8cc);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 500px;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #c94f7c;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #444;
+            margin: 5px 0;
+        }
+
+        .details {
+            margin-top: 25px;
+            font-size: 18px;
+            color: #555;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-style: italic;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Wedding Invitation</h1>
+    <h2>Arun ❤️ Priya</h2>
+    <p class="details">
+        Together with their families,<br>
+        request the pleasure of your company<br><br>
+
+        <strong>Date:</strong> 25 June 2026<br>
+        <strong>Time:</strong> 10:30 AM<br>
+        <strong>Venue:</strong> Grand Palace Hall, Chennai
+    </p>
+
+    <div class="footer">
+        Join us to celebrate love & happiness
+    </div>
+</div>
+
+</body>
+</html>
